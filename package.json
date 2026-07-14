@@ -1,0 +1,9 @@
+{
+  "name": "enterprise-portal-frontend",
+  "private": true,
+  "workspaces": [
+    "client-backoffice",
+    "client-portal",
+    "packages/*"
+  ]
+}

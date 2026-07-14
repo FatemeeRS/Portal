@@ -1,0 +1,14 @@
+{
+  "app": {
+    "title": "پورتال"
+  },
+  "nav": {
+    "home": "خانه"
+  },
+  "news": {
+    "sectionTitle": "اخبار"
+  },
+  "common": {
+    "loading": "در حال بارگذاری…"
+  }
+}
