@@ -1,0 +1,14 @@
+{
+  "app": {
+    "title": "Portal"
+  },
+  "nav": {
+    "home": "Home"
+  },
+  "news": {
+    "sectionTitle": "News"
+  },
+  "common": {
+    "loading": "Loading…"
+  }
+}
