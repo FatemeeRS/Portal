@@ -1,8 +1,8 @@
 import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material";
-import Brightness4Icon from "@mui/icons-material/Brightness4";
+import { Brightness4 as Brightness4Icon } from "@mui/icons-material";
 import { Outlet } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { useUiStore } from "../store/uiStore";
+import { useUiStore } from "../store/ui-store";
 
 export function AdminLayout() {
   const { t } = useTranslation();

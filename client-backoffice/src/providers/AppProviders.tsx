@@ -4,9 +4,9 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import { createAppTheme, type ThemeDirection } from "@enterprise/design-tokens";
-import { createEmotionCache } from "../theme/emotionCache";
+import { createEmotionCache } from "../theme/emotion-cache";
 import { rtlLanguages, type SupportedLanguage } from "../i18n/i18n";
-import { useUiStore } from "../store/uiStore";
+import { useUiStore } from "../store/ui-store";
 
 const queryClient = new QueryClient({
   defaultOptions: {
